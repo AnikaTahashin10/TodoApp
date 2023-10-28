@@ -25,8 +25,8 @@ console.log(todo, ...todos);
 
     const removeTodo = id => {
         const removedArr = [...todos].filter(todo => todo.id !== id);
-        setTodos(removedArr)
-    }
+        setTodos(removedArr);
+    };
 
 
     const completeTodo = id => {
